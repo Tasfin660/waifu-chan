@@ -1,9 +1,14 @@
 .container {
-  padding: 10rem 0;
+  padding: 10rem 8rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, 18rem);
   grid-gap: 8rem;
   justify-content: center;
-  max-width: 145rem;
+  max-width: 138rem;
   margin: 0 auto;
+
+  /**  480px / 16 = 25em */
+  @media only screen and (max-width: 30em) {
+    grid-template-columns: repeat(auto-fit, 22rem);
+  }
 }
