@@ -7,7 +7,7 @@
   max-width: 138rem;
   margin: 0 auto;
 
-  /**  480px / 16 = 25em */
+  /**  480px / 16 = 30em */
   @media only screen and (max-width: 30em) {
     grid-template-columns: repeat(auto-fit, 22rem);
   }
